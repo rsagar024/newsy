@@ -116,7 +116,7 @@ flutter run
 
 ## 📸 Screenshots
  
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**Dashboard** &emsp;&emsp;&emsp;&emsp;&emsp;|&emsp;&emsp;&emsp;&emsp;&emsp; **Search** &emsp;&emsp;&emsp;&emsp;&emsp;|&emsp;&emsp;&emsp;&emsp;&emsp; **Article Details**
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**Dashboard** &emsp;&emsp;&emsp;&emsp;&emsp;|&emsp;&emsp;&emsp;&emsp;&emsp; **Search** &emsp;&emsp;&emsp;&emsp;&emsp;|&emsp;&emsp;&emsp;&emsp;&emsp; **Article Details**
 <p align="center">
     <img src="screenshots/dashboard.jpeg" alt="Dashboard" width="250"/>
     <img src="screenshots/search.jpeg" alt="Search" width="250"/>
