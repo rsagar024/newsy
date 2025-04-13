@@ -45,16 +45,16 @@ Newsy is a sleek and responsive Flutter application that delivers the latest new
 
 ### 🔧 Prerequisites
 
-- Flutter SDK (v3.19.5+)
+- Flutter SDK (v3.22.3)
 - Dart SDK (v3.3.0+)
-- Android Studio / Xcode
+- Android Studio / Xcode / Visual Studio Code
 - Git CLI
 
 ### ⚙️ Installation
 
 ```bash
-git clone https://github.com/yourusername/newsy-app.git
-cd newsy-app
+git clone https://github.com/rsagar024/newsy.git
+cd newsy
 flutter pub get
 ```
 
@@ -130,9 +130,9 @@ flutter run
 
 > *(Include actual screenshots)*  
 **Dashboard** | **Search** | **Article Details**  
-![Dashboard](screenshots/dashboard.png)  
-![Search](screenshots/search.png)  
-![Details](screenshots/details.png)
+![Dashboard](screenshots/dashboard.jpeg)  
+![Search](screenshots/search.jpeg)  
+![Details](screenshots/details.jpeg)
 
 ---
 
@@ -146,15 +146,7 @@ We welcome contributions!
 4. Push to GitHub: `git push origin feature/your-feature-name`
 5. Open a pull request 🚀
 
----
-
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
 ## 🙏 Acknowledgements
 
 - [NewsAPI.org](https://newsapi.org) for providing the news data
-- Flutter Community for open-source inspiration  
+- Flutter Community for open-source inspiration
