@@ -131,9 +131,9 @@ flutter run
 > *(Include actual screenshots)*  
 **Dashboard** | **Search** | **Article Details**
 <p align="center">
-    <img src="screenshots/dashboard.jpeg" alt="Dashboard" width="300"/>
-    <img src="screenshots/search.jpeg" alt="Search" width="300"/>
-    <img src="screenshots/details.jpeg" alt="Details" width="300"/>
+    <img src="screenshots/dashboard.jpeg" alt="Dashboard" width="250"/>
+    <img src="screenshots/search.jpeg" alt="Search" width="250"/>
+    <img src="screenshots/details.jpeg" alt="Details" width="250"/>
 </p>
 
 ---
