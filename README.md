@@ -4,18 +4,6 @@ Newsy is a sleek and responsive Flutter application that delivers the latest new
 
 ---
 
-## ✅ Deliverables
-
-- 📱 A fully functional Flutter app on both **Android** and **iOS** devices/emulators
-- 🗂️ Source code hosted on **GitHub (set to private)** or any version control platform
-- 📄 A brief `README.md` covering:
-    - Setup & run instructions
-    - Key design decisions
-    - Development challenges & solutions
-    - Known issues and future improvements
-
----
-
 ## ✨ Features
 
 - 🏠 **Dashboard** with trending and latest news
@@ -128,7 +116,7 @@ flutter run
 
 ## 📸 Screenshots
  
-**Dashboard** | **Search** | **Article Details**
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**Dashboard** &emsp;&emsp;&emsp;&emsp;&emsp;|&emsp;&emsp;&emsp;&emsp;&emsp; **Search** &emsp;&emsp;&emsp;&emsp;&emsp;|&emsp;&emsp;&emsp;&emsp;&emsp; **Article Details**
 <p align="center">
     <img src="screenshots/dashboard.jpeg" alt="Dashboard" width="250"/>
     <img src="screenshots/search.jpeg" alt="Search" width="250"/>
