@@ -43,7 +43,6 @@ class NewsDetailsPage extends StatelessWidget {
               ListView(
                 children: [
                   Container(
-                    // height: MediaQuery.of(context).size.height * 0.6,
                     decoration: const BoxDecoration(
                       borderRadius: BorderRadius.only(
                         topLeft: Radius.circular(10),
@@ -67,7 +66,7 @@ class NewsDetailsPage extends StatelessWidget {
                                 style: const TextStyle(fontSize: 18, fontWeight: FontWeight.w600),
                               ),
                             ),
-                            const Icon(Icons.bookmark_border, size: 30, color: Colors.red),
+                            const Icon(Icons.bookmark_border, size: 30, color: Colors.black),
                           ],
                         ),
                         MetadataItemWidget(
@@ -98,7 +97,7 @@ class NewsDetailsPage extends StatelessWidget {
                             style: const TextStyle(fontSize: 14, fontWeight: FontWeight.w400, color: Colors.blue),
                           ),
                         ),
-                        const SizedBox(height: 70),
+                        const SizedBox(height: 30),
                       ],
                     ),
                   ),
