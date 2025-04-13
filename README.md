@@ -1,0 +1,160 @@
+# 📰 Newsy App — Flutter News Application
+
+Newsy is a sleek and responsive Flutter application that delivers the latest news across various categories. It provides a smooth user experience with organized dashboards, in-depth article views, and an efficient search system backed by recent history tracking.
+
+---
+
+## ✅ Deliverables
+
+- 📱 A fully functional Flutter app on both **Android** and **iOS** devices/emulators
+- 🗂️ Source code hosted on **GitHub (set to private)** or any version control platform
+- 📄 A brief `README.md` covering:
+    - Setup & run instructions
+    - Key design decisions
+    - Development challenges & solutions
+    - Known issues and future improvements
+
+---
+
+## ✨ Features
+
+- 🏠 **Dashboard** with trending and latest news
+- 🗂️ **Category filters** (Business, Entertainment, Health, etc.)
+- 🔍 **Search with debouncing & history**
+- 📰 **Detailed article view**
+- 🔄 **Pull-to-refresh** support
+- 📱 **Responsive UI** for all screen sizes
+
+---
+
+## 🛠️ Tech Stack
+
+| Tool                | Purpose                    |
+|---------------------|----------------------------|
+| Flutter (v3.19.5)   | Framework                  |
+| Dart (v3.3.0)       | Language                   |
+| BLoC                | State management           |
+| Dio                 | API client                 |
+| GetIt               | Dependency injection       |
+| Shared Preferences  | Local storage              |
+| Url Launcher        | Open links externally      |
+
+---
+
+## 🚀 Getting Started
+
+### 🔧 Prerequisites
+
+- Flutter SDK (v3.19.5+)
+- Dart SDK (v3.3.0+)
+- Android Studio / Xcode
+- Git CLI
+
+### ⚙️ Installation
+
+```bash
+git clone https://github.com/yourusername/newsy-app.git
+cd newsy-app
+flutter pub get
+```
+
+### ▶️ Run the App
+
+```bash
+flutter run
+```
+
+> 👉 Get your API key at [NewsAPI.org](https://newsapi.org)
+
+---
+
+## 🧠 Design Decisions
+
+### 🔄 BLoC for State Management
+
+- Clear logic separation
+- Predictable state handling
+- Scalable for new features
+- Easy to test
+
+### 🧱 Modular Structure
+
+- Organized by feature
+- Easier maintenance
+- Scales well with team collaboration
+
+### 🔍 Search Logic
+
+- Debounced input (500ms)
+- Stores recent queries locally
+- Smooth loading UX
+
+### ⚠️ Error Handling
+
+- Friendly error screens
+- Retry buttons
+- Handles broken images & empty responses
+
+---
+
+## 🧩 Development Challenges
+
+| Challenge               | Solution                                           |
+|-------------------------|----------------------------------------------------|
+| API Rate Limiting       | Caching & optimized API usage                      |
+| Broken Image URLs       | Placeholders for missing images                    |
+| High-frequency Searches | Debounce logic (500ms) to reduce API hits         |
+| Persistent State        | Global state managed using BLoC pattern            |
+
+---
+
+## 🐞 Known Issues & 🔧 Future Improvements
+
+### 🚧 Current Limitations
+
+- Free NewsAPI plan: 100 requests/day
+- No offline news caching
+- Basic bookmarking only
+
+### 📌 Planned Enhancements
+
+- ✅ User authentication
+- 🌗 Dark/Light theme support
+- 🔔 Push notifications
+- 📤 Share articles to social platforms
+- 🧪 Add complete testing suite
+
+---
+
+## 📸 Screenshots
+
+> *(Include actual screenshots)*  
+**Dashboard** | **Search** | **Article Details**  
+![Dashboard](screenshots/dashboard.png)  
+![Search](screenshots/search.png)  
+![Details](screenshots/details.png)
+
+---
+
+## 🤝 Contribution Guide
+
+We welcome contributions!
+
+1. Fork the repo
+2. Create a new branch: `git checkout -b feature/your-feature-name`
+3. Make your changes and commit: `git commit -m "Add: your message"`
+4. Push to GitHub: `git push origin feature/your-feature-name`
+5. Open a pull request 🚀
+
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## 🙏 Acknowledgements
+
+- [NewsAPI.org](https://newsapi.org) for providing the news data
+- Flutter Community for open-source inspiration  
