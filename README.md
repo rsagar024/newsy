@@ -103,7 +103,7 @@ flutter run
 |-------------------------|----------------------------------------------------|
 | API Rate Limiting       | Caching & optimized API usage                      |
 | Broken Image URLs       | Placeholders for missing images                    |
-| High-frequency Searches | Debounce logic (500ms) to reduce API hits         |
+| High-frequency Searches | Debounce logic (900ms) to reduce API hits         |
 | Persistent State        | Global state managed using BLoC pattern            |
 
 ---
@@ -127,8 +127,7 @@ flutter run
 ---
 
 ## 📸 Screenshots
-
-> *(Include actual screenshots)*  
+ 
 **Dashboard** | **Search** | **Article Details**
 <p align="center">
     <img src="screenshots/dashboard.jpeg" alt="Dashboard" width="250"/>
